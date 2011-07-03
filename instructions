@@ -1,0 +1,3 @@
+open up phpmyadmin n copy paste n run the commands given in bitscentral.sql n users.sql
+goto localhost/bitscentral/chat/install.php it will create tables fr ajax chat
+open player.html in ur browser to see the integrated video player url:    localhost/bitscentral/player.html

@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Wow! This is video</title>
+	<script src="flowplayer/example/flowplayer-3.2.6.min.js"></script>
+</head>
+<body>
+
+<a 
+	href="./flv/mario.flv" 
+	style="display:block;width:425px;height:300px;" 
+	id="player">
+</a>
+
+<script language="JavaScript">
+	flowplayer("player", "flowplayer/flowplayer-3.2.7.swf",{
+	
+            plugins: {			// load one or more plugins
+        controls: {			// load the controls plugin
+            backgroundColor: '#F5A9F2',
+            tooltips: {				// this plugin object exposes a 'tooltips' object
+                buttons: true,
+                fullscreen: 'Enter Fullscreen mode'
+            }
+        }
+    },
+    clip : {			// Clip is an object, hence '{...}'
+        autoPlay: true,
+        autoBuffering: true,
+       
+    }
+	});
+</script>
+<a 
+	href="./flv/mario.flv" 
+	style="display:block;width:425px;height:300px;" 
+	id="player2">
+</a>
+</body>
+</html>
+
+
